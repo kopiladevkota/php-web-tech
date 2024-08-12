@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<body>
+    <h2>Simple Form</h2>
+    <form action="lab3.php" method="POST">
+        <!-- Text Box -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <!-- Check Box -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="hobby1" name="hobbies[]" value="Reading">
+        <label for="hobby1">Reading</label><br>
+        <input type="checkbox" id="hobby2" name="hobbies[]" value="Traveling">
+        <label for="hobby2">Traveling</label><br>
+        <input type="checkbox" id="hobby3" name="hobbies[]" value="Gaming">
+        <label for="hobby3">Gaming</label><br><br>
+        
+        <!-- Radio Button -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+        
+        <!-- Select -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="Nepal">Nepal</option>
+            <option value="India">India</option>
+            
+        </select><br><br>
+        
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
