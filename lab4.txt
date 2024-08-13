@@ -1,0 +1,5 @@
+Name, Age, Email
+kopila, 20, kopila@gmail.com
+kamal, 12, kamal@yahoo.com
+
+
