@@ -1,6 +1,6 @@
 <?php
 // File path (change this to the path of your file)
-$file_path = 'lab4.txt';
+$file_path = 'reading_text.txt';
 
 // Check if the file exists
 if (file_exists($file_path)) {
