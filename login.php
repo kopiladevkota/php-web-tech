@@ -11,7 +11,7 @@ $password = $_POST['password'] ?? '';
 // Check if the credentials are correct
 if ($username === $valid_username && $password === $valid_password) {
     // Redirect to the welcome page
-    header('Location: lab5.2.html');
+    header('Location: login2.html');
     exit();
 } else {
     // Display an error message
