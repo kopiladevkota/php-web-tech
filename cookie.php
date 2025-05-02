@@ -10,5 +10,5 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 1), "/"); // "/" means 
 echo "Cookie named '" . $cookie_name . "' has been set with value '" . $cookie_value . "'.<br>";
 
 // Provide a link to the next page to access the cookie
-echo '<a href="lab9.2.php">Go to the next page to access the cookie</a>';
+echo '<a href="cookieaccess.php">Go to the next page to access the cookie</a>';
 ?>
